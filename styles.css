@@ -1,0 +1,215 @@
+* {
+    outline: 1px solid red;
+    /* vertical-align: top; */
+    box-sizing: border-box;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* colors 
+orange button: rgb(255, 130, 0) FF8200
+blue1: rgb(0, 101, 150) 006596
+blue: rgb(42, 123, 162) 0E749F
+phone number: rgb(0, 196, 223) 00C4DF
+aqua: rgb(193, 228, 231) C1E4E7*/
+
+/* repeated elements */
+
+.blue {
+    color: rgb(0, 101, 150);
+}
+
+.aqua {
+    color: rgb(193, 228, 231);
+}
+
+/* repeated elements end */
+
+/* header section begins */
+
+header {
+    width: 970px;
+}
+
+header img {
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    top: 25px;
+    width: 100px;
+    padding: 10px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+h2 {
+    padding: 10px;
+    color: whitesmoke;
+    background-color: rgb(42, 123, 162);
+}
+
+/* header section ends */
+
+/* #lefSide section begins */
+
+#leftSide {
+    display: inline-block;
+    width: 200px;
+    margin-left: 190px;
+}
+
+/* #leftTop section begins */
+
+#leftTop {
+    /* margin-top: 10px; */
+    border-bottom: 1px solid gray;
+}
+
+h4, #leftTop p, #leftTop a {
+    margin-top: 10px;
+}
+
+span {
+    color: red;
+}
+
+#leftTop p {
+    font-weight: bold;
+    font-size: small;
+}
+
+#leftTop a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    /* margin-bottom: 25px; */
+    /* margin-top: 25px; */
+    border-radius: 6px;
+    background-color: teal;
+}
+
+#resources {
+    margin-bottom: 25px;
+}
+
+/* #leftTop section ends */
+
+/* #leftBottom section begins */
+
+#leftBottom {
+    background-image: url("img/ad_background.png");
+}
+
+/* #ad {
+    width: 200px;
+    margin-top: 25px;
+} */
+
+#leftBottom p {
+    width: 200px;
+    margin-top: 25px;
+    padding: 10px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 16pt;
+    /* position: relative; */
+    /* bottom: 250px; */
+}
+
+#ninja {
+    width: 73px;
+    margin-left: 64;
+    position: relative;
+    /* bottom: 200px; */
+    left: 55px;
+}
+
+#leftBottom a {
+    display: block;
+    text-align: center;
+    width: 150px;
+    padding: 5px;
+    margin-top: 15px;
+    color: whitesmoke;
+    background-color: turquoise;
+    text-decoration: none;
+    border-radius: 6px;
+}
+/* 
+#leftBottom a::after {
+    content: ' \003E';
+} */
+
+#leftBottom a::after {
+    content: ' \003E';
+    content: ' \00BB';
+}
+
+/* #leftBottom section ends */
+
+/* #leftSide section ends */
+
+/* #mainContent section begins */
+
+#mainContent {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* #mainContent section ends */
+
+/* #contactLine section begins */
+
+#contactLine {
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+#contactLine a img {
+    width: 15px;
+    vertical-align: top;
+}
+
+#contactLine p:nth-child(2) {
+    display: inline-block;
+    font-size: 10pt;
+    color: rgb(0, 101, 150);
+    vertical-align: top;
+}
+
+#phoneNumber {
+    width: 250px;
+    display: inline-block;
+    margin-left: 463px;
+}
+
+#phoneNumber img {
+    vertical-align: top;
+    display: inline-block;
+    width: 54px;
+    padding: 5px;
+}
+
+#hoursNumbers {
+    display: inline-block;
+    width: 148px;
+}
+
+#hoursNumbers p:nth-child(1), #hoursNumbers p:nth-child(3) {
+    font-size: 8pt;
+    text-align: center;
+}
+
+#hoursNumbers p:nth-child(2) {
+    color: aqua;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+/* #hoursNumbers p:nth-child(3) {
+    font-size: 8pt;
+} */

@@ -1,18 +1,11 @@
 * {
-    outline: 1px solid red;
-    /* vertical-align: top; */
+    /* outline: 1px solid red; */
     box-sizing: border-box;
     margin: 0px auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* colors 
-blue1: rgb(0, 101, 150) 006596
-blue: rgb(42, 123, 162) 0E749F
-phone number: rgb(0, 196, 223) 00C4DF
-aqua: rgb(193, 228, 231) C1E4E7*/
-
-/* repeated elements */
+/* repeated elements begins */
 
 .blue {
     color: rgb(0, 101, 150);
@@ -189,7 +182,6 @@ span {
 
 #hoursNumbers p:nth-child(1), #hoursNumbers p:nth-child(3) {
     font-size: 7pt;
-    /* text-align: center; */
 }
 
 #hoursNumbers p:nth-child(2) {
@@ -197,10 +189,6 @@ span {
     font-size: 15pt;
     font-weight: bold;
 }
-
-/* #hoursNumbers p:nth-child(3) {
-    font-size: 8pt;
-} */
 
 /* #contactLine section ends */
 
@@ -211,7 +199,6 @@ h4 {
 }
 
 #info p {
-    /* padding: 8px; */
     font-size: 10pt;
 }
 
@@ -254,6 +241,6 @@ li {
     margin-bottom: 5px;
 }
 
-/* #bigThree section begins */
+/* #bigThree section ends */
 
 /* #info section ends */

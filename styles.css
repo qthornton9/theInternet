@@ -7,7 +7,6 @@
 }
 
 /* colors 
-orange button: rgb(255, 130, 0) FF8200
 blue1: rgb(0, 101, 150) 006596
 blue: rgb(42, 123, 162) 0E749F
 phone number: rgb(0, 196, 223) 00C4DF
@@ -20,7 +19,7 @@ aqua: rgb(193, 228, 231) C1E4E7*/
 }
 
 .aqua {
-    color: rgb(193, 228, 231);
+    color: aqua
 }
 
 /* repeated elements end */
@@ -63,11 +62,10 @@ h2 {
 /* #leftTop section begins */
 
 #leftTop {
-    /* margin-top: 10px; */
     border-bottom: 1px solid gray;
 }
 
-h4, #leftTop p, #leftTop a {
+h5, #leftTop p, #leftTop a {
     margin-top: 10px;
 }
 
@@ -86,14 +84,13 @@ span {
     text-decoration: none;
     color: whitesmoke;
     padding: 10px;
-    /* margin-bottom: 25px; */
-    /* margin-top: 25px; */
     border-radius: 6px;
     background-color: teal;
 }
 
-#resources {
+#leftTop #resources {
     margin-bottom: 25px;
+    background-color: rgb(255, 130, 0)
 }
 
 /* #leftTop section ends */
@@ -102,12 +99,8 @@ span {
 
 #leftBottom {
     background-image: url("img/ad_background.png");
+    height: 255px;
 }
-
-/* #ad {
-    width: 200px;
-    margin-top: 25px;
-} */
 
 #leftBottom p {
     width: 200px;
@@ -116,16 +109,13 @@ span {
     color: whitesmoke;
     text-align: center;
     font-size: 16pt;
-    /* position: relative; */
-    /* bottom: 250px; */
 }
 
 #ninja {
-    width: 73px;
-    margin-left: 64;
+    width: 75px;
     position: relative;
-    /* bottom: 200px; */
     left: 55px;
+    bottom: 5px;
 }
 
 #leftBottom a {
@@ -139,13 +129,8 @@ span {
     text-decoration: none;
     border-radius: 6px;
 }
-/* 
-#leftBottom a::after {
-    content: ' \003E';
-} */
 
 #leftBottom a::after {
-    content: ' \003E';
     content: ' \00BB';
 }
 
@@ -156,6 +141,8 @@ span {
 /* #mainContent section begins */
 
 #mainContent {
+    width: 751px;
+    margin-left: 15px;
     display: inline-block;
     vertical-align: top;
 }
@@ -165,6 +152,7 @@ span {
 /* #contactLine section begins */
 
 #contactLine {
+    width: 751px;
     padding: 5px;
     border-bottom: 1px solid gray;
 }
@@ -182,7 +170,7 @@ span {
 }
 
 #phoneNumber {
-    width: 250px;
+    width: 225px;
     display: inline-block;
     margin-left: 463px;
 }
@@ -190,7 +178,7 @@ span {
 #phoneNumber img {
     vertical-align: top;
     display: inline-block;
-    width: 54px;
+    width: 45px;
     padding: 5px;
 }
 
@@ -200,16 +188,72 @@ span {
 }
 
 #hoursNumbers p:nth-child(1), #hoursNumbers p:nth-child(3) {
-    font-size: 8pt;
-    text-align: center;
+    font-size: 7pt;
+    /* text-align: center; */
 }
 
 #hoursNumbers p:nth-child(2) {
     color: aqua;
-    font-size: 18pt;
+    font-size: 15pt;
     font-weight: bold;
 }
 
 /* #hoursNumbers p:nth-child(3) {
     font-size: 8pt;
 } */
+
+/* #contactLine section ends */
+
+/* #info section begins */
+
+h4 {
+    color: rgb(0, 101, 150);
+}
+
+#info p {
+    /* padding: 8px; */
+    font-size: 10pt;
+}
+
+li {
+    padding: 5px;
+    font-size: 10pt;
+}
+
+#info img {
+    width: 235px;
+    padding: 10px;
+    margin-left: 250px;
+}
+
+/* #bigThree section begins */
+
+#bigThree {
+    border: 4px solid rgb(42, 123, 162);
+    border-bottom: 0px;
+    margin-top: 10px;
+}
+
+#bigThree img {
+    width: 110px;
+    margin-left: 0px;
+}
+
+#bigThreeInfo {
+    display: inline-block;
+    width: 628px;
+    vertical-align: top;
+}
+
+#bigThreeInfo h4 {
+    margin-top: 5px;
+}
+
+#bigThreeInfo p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* #bigThree section begins */
+
+/* #info section ends */

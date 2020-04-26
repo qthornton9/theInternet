@@ -17,13 +17,12 @@
 
     <div id="leftSide">
         <div id="leftTop">
-            <h4>So, what's an <span>Internet?</span></h4>
+            <h5>So, what's an <span>Internet?</span></h5>
             <p>An <span class="blue">inter</span>connected <span class="blue">Net</span>work of computers all around the world!</p>
             <a href="#">WATCH A VIDEO</a>
-            <a id= "resources" href="#">MORE RESOURCES</a>
+            <a id="resources" href="#">MORE RESOURCES</a>
         </div> <!--#leftTop section ends-->
         <div id="leftBottom">
-            <!-- <img id="ad" src="img/ad_background.png" alt="Digital Background For Ad"> -->
             <p>Reinvent your career in just 14 weeks</p>
             <img id="ninja" src="img/ninja.png" alt="Ninja For Ad">
             <a href="">Learn More</a>
@@ -43,6 +42,30 @@
                 </div>
             </div>
         </div>
+        <div id="info">
+            <h4 class="blue">Clients and Servers</h4>
+            <p>Computers connected to the <span class="aqua">Web</span> are called <span class="bold">clients</span> and <span class="bold">servers</span>.</p>
+            <ul>
+                <li><span class="aqua">Clients</span> are the typical Web user's Internet-connected devices (for example, yur computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span class="aqua">Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).</li>
+                <li><span class="aqua">Servers</span> are computers that store <span class="aqua">webpages</span>, <span class="aqua">sites</span>, or <span class="aqua">apps</span>.  When a client device wants t access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+            </ul>
+            <img src="img/client_server.jpg" alt="Server Client Diagram">
+            <h4 class="blue">So What Actually Happens?</h4>
+            <ol>
+                <li>The browser goes to the <span class="aqua">DNS server</span> and finds the real address of the <span class="aqua">server</span> that the website lives on.</li>
+                <li>The browser sends an <span class="aqua">HTTP request</span> message to the server asking it to send a copy of the website to the client.</li>
+                <li>If the server approves the client's request, the server sends the client a <span class="aqua">"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series f small chunks.</li>
+                <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+            </ol>
+            <div id="bigThree">
+                <img src="img/html.png" alt="H T M L C S S Javascript Image">
+                <div id="bigThreeInfo">
+                    <h4>The Big 3 - HTML, CSS, JavaScript</h4>
+                    <p>While the sever can process information in many different languages, the files that they serve to the client are always going to be some combination of HTML, CSS, and JavaScript!</p>
+                    <p>Learn more about the Big 3 <a class="aqua" href="">here</a>!</p>
+                </div> <!-- #bigThreeInfo ends -->
+            </div> <!-- #bigThree section ends -->
+        </div> <!--#info section ends-->
     </div>
 
 
